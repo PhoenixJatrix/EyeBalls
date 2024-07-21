@@ -8,6 +8,7 @@ import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.Arrangement
@@ -30,10 +31,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.Green
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.drawscope.Fill
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import kotlin.random.Random
@@ -239,13 +243,14 @@ class MainActivity : ComponentActivity() {
             }
 
             if (visible) {
-                Canvas(
+                Image(
+                    painter = painterResource(id = R.drawable.money),
+                    contentDescription = "",
+                    colorFilter = ColorFilter.tint(Green),
                     modifier = Modifier
                         .size(25.dp)
                         .offset(x = moneyX - 12.5.dp, y = moneyY - 12.5.dp)
-                ) {
-                    drawCircle(color = Color.Green)
-                }
+                )
             }
 
             Column(
