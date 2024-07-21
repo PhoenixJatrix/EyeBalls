@@ -245,7 +245,7 @@ class MainActivity : ComponentActivity() {
             if (visible) {
                 Image(
                     painter = painterResource(id = R.drawable.money),
-                    contentDescription = "",
+                    contentDescription = "red",
                     colorFilter = ColorFilter.tint(Green),
                     modifier = Modifier
                         .size(25.dp)
