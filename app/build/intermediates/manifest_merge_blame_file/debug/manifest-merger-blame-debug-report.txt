@@ -28,84 +28,83 @@
 19-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:10:9-41
 20        android:supportsRtl="true"
 20-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:11:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.KotlinTest" >
-22-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:12:9-48
-23        <activity
-23-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:14:9-24:20
-24            android:name="com.example.kotlintest.MainActivity"
-24-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:15:13-41
-25            android:exported="true"
-25-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:16:13-36
-26            android:label="@string/app_name"
-26-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:17:13-45
-27            android:theme="@style/Theme.KotlinTest" >
-27-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:18:13-52
-28            <intent-filter>
-28-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\b03a1f6e39e899003ebaa910c957cb49\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
-35            android:name="androidx.compose.ui.tooling.PreviewActivity"
-35-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\b03a1f6e39e899003ebaa910c957cb49\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
-36            android:exported="true" />
-36-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\b03a1f6e39e899003ebaa910c957cb49\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
-37        <activity
-37-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\c06da0083e9e02f2e7ff9493d35d9ddc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:24:9-26:39
-38            android:name="androidx.activity.ComponentActivity"
-38-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\c06da0083e9e02f2e7ff9493d35d9ddc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:25:13-63
-39            android:exported="true" />
-39-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\c06da0083e9e02f2e7ff9493d35d9ddc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:26:13-36
-40
-41        <provider
-41-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
-43            android:authorities="com.example.kotlintest.androidx-startup"
-43-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
-44            android:exported="false" >
-44-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
-45            <meta-data
-45-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
-46                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-46-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
-47                android:value="androidx.startup" />
-47-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
-48        </provider>
-49
-50        <receiver
-50-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
-51            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-51-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
-52            android:directBootAware="false"
-52-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
-53            android:enabled="true"
-53-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
-54            android:exported="true"
-54-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
-55            android:permission="android.permission.DUMP" >
-55-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
-56            <intent-filter>
-56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
-57                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-57-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
-57-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
-58            </intent-filter>
-59            <intent-filter>
-59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
-60                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-60-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
-60-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
-61            </intent-filter>
-62        </receiver>
-63    </application>
-64
-65</manifest>
+21        android:theme="@style/Theme.KotlinTest" >
+21-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:12:9-48
+22        <activity
+22-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:14:9-24:20
+23            android:name="com.example.kotlintest.MainActivity"
+23-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:15:13-41
+24            android:exported="true"
+24-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:16:13-36
+25            android:label="@string/app_name"
+25-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:17:13-45
+26            android:theme="@style/Theme.KotlinTest" >
+26-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:18:13-52
+27            <intent-filter>
+27-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:20:17-69
+28-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:22:17-77
+30-->C:\Users\andyj\EyeBalls\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\b03a1f6e39e899003ebaa910c957cb49\transformed\ui-tooling-1.2.0\AndroidManifest.xml:24:9-26:39
+34            android:name="androidx.compose.ui.tooling.PreviewActivity"
+34-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\b03a1f6e39e899003ebaa910c957cb49\transformed\ui-tooling-1.2.0\AndroidManifest.xml:25:13-71
+35            android:exported="true" />
+35-->[androidx.compose.ui:ui-tooling:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\b03a1f6e39e899003ebaa910c957cb49\transformed\ui-tooling-1.2.0\AndroidManifest.xml:26:13-36
+36        <activity
+36-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\c06da0083e9e02f2e7ff9493d35d9ddc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:24:9-26:39
+37            android:name="androidx.activity.ComponentActivity"
+37-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\c06da0083e9e02f2e7ff9493d35d9ddc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:25:13-63
+38            android:exported="true" />
+38-->[androidx.compose.ui:ui-test-manifest:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\c06da0083e9e02f2e7ff9493d35d9ddc\transformed\ui-test-manifest-1.2.0\AndroidManifest.xml:26:13-36
+39
+40        <provider
+40-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+42            android:authorities="com.example.kotlintest.androidx-startup"
+42-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+43            android:exported="false" >
+43-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+44            <meta-data
+44-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+45                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+45-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+46                android:value="androidx.startup" />
+46-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+47        </provider>
+48
+49        <receiver
+49-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+50            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+50-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+51            android:directBootAware="false"
+51-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+52            android:enabled="true"
+52-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+53            android:exported="true"
+53-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+54            android:permission="android.permission.DUMP" >
+54-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+55            <intent-filter>
+55-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+56                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+56-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+57            </intent-filter>
+58            <intent-filter>
+58-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+59                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+59-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\andyj\.gradle\caches\transforms-3\ca5613641b27a97bbc15f4cd2fccbe66\transformed\profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+60            </intent-filter>
+61        </receiver>
+62    </application>
+63
+64</manifest>
