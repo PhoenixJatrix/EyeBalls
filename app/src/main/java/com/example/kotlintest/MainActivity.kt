@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Canvas
@@ -170,7 +169,7 @@ class MainActivity : ComponentActivity() {
                     }
             ) {
 
-                Box() {
+                Box {
                     Canvas(modifier = Modifier
                         .height(eyeHeight.dp)
                         .width(eyeWidth.dp), onDraw = {
@@ -191,7 +190,7 @@ class MainActivity : ComponentActivity() {
                         ), onDraw = {
                         drawCircle(color = Color.Black)
                         drawOval(
-                            color = Color.Green,
+                            color = Green,
                             style = Fill,
                             size = Size(height = 30f, width = 30f),
                             topLeft = Offset(
@@ -206,7 +205,7 @@ class MainActivity : ComponentActivity() {
                     })
                 }
 
-                Box() {
+                Box {
                     Canvas(modifier = Modifier
                         .height(eyeHeight.dp)
                         .width(eyeWidth.dp), onDraw = {
@@ -227,7 +226,7 @@ class MainActivity : ComponentActivity() {
                         ), onDraw = {
                         drawCircle(color = Color.Black)
                         drawOval(
-                            color = Color.Green,
+                            color = Green,
                             style = Fill,
                             size = Size(height = 30f, width = 30f),
                             topLeft = Offset(
