@@ -45,6 +45,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            //this is a comment
             val eyeWidth = 100
             val eyeHeight = 60
 
